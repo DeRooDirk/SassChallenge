@@ -2,9 +2,15 @@
 https://deroodirk.github.io/SassChallenge/.
 
 ## first solution 
+
 i used the files from the exercises (same names and stuff)
 
 ## Another solution 
+
+https://sass-lang.com/guide
+
+Modules
+
 
 use base 
 
@@ -25,11 +31,13 @@ body {
 
 styles.scss file 
 
-@use 'base';  (use things out of basescss file )
+@use 'base'; 
+
+use things out of basescss file 
+for bg color in file basescss take the primary color and change it to white in this case.
 
 .inverse {
-  background-color: base.$primary-color; ( for bg color in file base scss take the primary color
-                                          and change it to white in this case )
+  background-color: base.$primary-color; 
   color: white;
 }
 
