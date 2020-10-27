@@ -121,6 +121,18 @@ h6 {
 }
 
 .links {
+  text-align: center;
+  a {
 
-  color: $text-color;
+  text-decoration: none;
+  color:$text-color;
+  border:2px solid rgb(225, 48, 8);
+  background-color: rgb(136, 135, 222);
+  margin:5px;
+  padding: 2px 15px;
+  border-radius: 5px;  
+}
+  a:hover{
+    color: brown;
+  }
 }

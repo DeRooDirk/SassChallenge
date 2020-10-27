@@ -106,6 +106,20 @@ h6 {
 }
 
 .links {
+  text-align: center;
+}
+
+.links a {
+  text-decoration: none;
   color: #2748b3;
+  border: 2px solid #e13008;
+  background-color: #8887de;
+  margin: 5px;
+  padding: 2px 15px;
+  border-radius: 5px;
+}
+
+.links a:hover {
+  color: brown;
 }
 /*# sourceMappingURL=style.css.map */
